@@ -3,12 +3,12 @@ package net.springguides.springboot_rest_api.bean;
 public class Student {
     private int id;
     private  String firstName;
-    private String lastname;
+    private String lastName;
 
-    public Student(int id, String firstName, String lastname){
+    public Student(int id, String firstName, String lastName){
         this.id =id;
         this.firstName = firstName;
-        this.lastname = lastname;
+        this.lastName = lastName;
     }
 
     public int getId() {
@@ -27,11 +27,11 @@ public class Student {
         this.firstName = firstName;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
